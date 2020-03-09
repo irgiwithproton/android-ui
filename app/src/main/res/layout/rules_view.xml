@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="#fff"
+    >
+
+    <TextView
+        android:id="@+id/heading_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Rules"
+        style="@style/TextAppearance.AppCompat.Headline"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/one_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="1. Untuk popup view click diCollaption"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading_rules"
+        />
+
+    <TextView
+        android:id="@+id/two_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="2. Untuk Fullscreen click gambar dibawah collaption"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/one_rules"
+        />
+
+    <TextView
+        android:id="@+id/three_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="3. Overlay berada dinavigation drawer"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/two_rules"
+        />
+
+    <TextView
+        android:id="@+id/four_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="4. Pallate color untuk setcolor toolbar"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/three_rules"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

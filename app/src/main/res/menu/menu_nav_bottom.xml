@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dasboard"
+        android:title="dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        />
+
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@drawable/ic_search_black_24dp"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        />
+
+</menu>

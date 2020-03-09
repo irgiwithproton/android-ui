@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="?attr/colorPrimaryDark"
+    >
+    
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:src="@drawable/header_slide"-->
+<!--        />-->
+
+    <!--reff https://github.com/hdodenhof/CircleImageView-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_marginBottom="16dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/buku"
+        android:scaleType="centerCrop"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>
