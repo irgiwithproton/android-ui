@@ -48,6 +48,7 @@ import com.eluon.belajarui.activity.SearchDrawerActivity;
 import com.eluon.belajarui.activity.UntukActivity;
 import com.eluon.belajarui.activity.ViewImagesActivity;
 import com.eluon.belajarui.fragment.DashboardFragment;
+import com.eluon.belajarui.fragment.DragFragment;
 import com.eluon.belajarui.fragment.ProfileFragment;
 import com.eluon.belajarui.fragment.SearchFragment;
 import com.eluon.belajarui.sharedku.BukuFragment;
@@ -246,6 +247,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.profile:
                         fragment = new ProfileFragment();
+                        break;
+                    case R.id.dragppp:
+                        fragment = new DragFragment();
                         break;
                 }
 

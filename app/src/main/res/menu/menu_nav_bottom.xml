@@ -14,6 +14,12 @@
         />
 
     <item
+        android:id="@+id/dragppp"
+        android:title="drag"
+        android:icon="@drawable/ic_ondemand_video_black_24dp"
+        />
+
+    <item
         android:id="@+id/profile"
         android:title="profile"
         android:icon="@drawable/ic_person_outline_black_24dp"
